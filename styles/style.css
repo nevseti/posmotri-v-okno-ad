@@ -183,18 +183,17 @@ ol {
   grid-area: B;
   width: 399px;
   height: 534px;
-  /* margin-top: auto; */
 } 
 
 
 .content__list-container {
   position: relative;
   display: grid;
+  gap:30px;
   margin-top: 26px;
   height: 298px;
   overflow-y: auto;
   overflow-x: hidden;
-  gap:30px
 }
 
 .content__list {
@@ -219,7 +218,7 @@ ol {
 
 .content__card-link {
   text-decoration: none;
-  color:#fff;
+  color:white;
 }
 
 .content__video-card-title {
